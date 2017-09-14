@@ -1,0 +1,5 @@
+<ul>
+  <li class="person" *ngFor="let person of personList">
+    <a (click)="showDetail(person)">{{person.name}}</a>
+  </li>
+</ul>
